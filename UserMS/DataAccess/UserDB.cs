@@ -35,5 +35,7 @@ namespace UserMS.DataAccess
             usersInMemory.Add(user);
             return GetUserById(user.Id.Value);
         }
+       // public void UpdateUser(User user)
+        
     }
 }
